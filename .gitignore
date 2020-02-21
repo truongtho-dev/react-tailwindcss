@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+.DS_Store
+
+# IDE
+.idea
+.vscode
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+build
+dist
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# Ignore build files
+public
