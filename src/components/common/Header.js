@@ -10,8 +10,8 @@ class Header extends Component {
     };
   }
 
-  handleClick() {
-    console.log("hi");
+  handleClickMenu() {
+    console.log("check state !");
     this.setState({
       isMobile: true,
       openMenu: !this.state.openMenu
@@ -22,7 +22,7 @@ class Header extends Component {
     return (
       <>
         <nav className="relative fixed top-0 flex w-auto text-white text-xl text-center bg-gray-900 ">
-          <div className="pt-5  w-1/5 ml-2 block h-20">TranSwap</div>
+          <div className="pt-5  w-1/5 ml-2 block h-20">Brand</div>
           <div className="hidden w-4/5 sm:flex sm:justify-end text-base h-20">
             <div className="w-1/2 pt-5 flex justify-center">
               <input
@@ -46,7 +46,7 @@ class Header extends Component {
           </div>
 
           <div
-            onClick={this.handleClick.bind(this)}
+            onClick={this.handleClickMenu.bind(this)}
             className=" sm:hidden pt-6 w-full"
           >
             {this.state.openMenu ? (

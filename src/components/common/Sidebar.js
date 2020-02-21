@@ -6,7 +6,7 @@ const Sidebar = () => {
       <div className="bg-gray-700 text-white md:w-64 hidden md:flex md:flex-col md:justify-between">
         <div className="flex flex-col justify-between">
           <div className="flex items-center justify-center h-24 border-b">
-            <h1 className="text-2xl font-bold cursor-pointer">TranSwap</h1>
+            <h1 className="text-2xl font-bold cursor-pointer">Brand</h1>
           </div>
 
           <div className="flex flex-col font-bold">
